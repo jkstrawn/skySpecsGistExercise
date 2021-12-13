@@ -1,0 +1,20 @@
+.gist-item {
+    padding: 5px;
+    display: flex;
+    
+    .gist-item-detail {
+        padding: 5px;
+        text-align: start;
+        flex: 1;
+        margin-right: 20px;
+        cursor: pointer;
+
+        &:hover {
+            background: #eee;
+        }
+    }
+}
+
+.gist-item:not(:last-child) {
+    border-bottom: 1px solid #333;
+}
